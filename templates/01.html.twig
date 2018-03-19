@@ -1,91 +1,87 @@
 {% extends "index.html.twig" %}
 {% block title %}Plaidoyer pour le journalisme - Le Temps de s'engager{% endblock %}
+
+{% block metas %}
+<meta property="og:title" content="Le Temps de s'engager" />
+<meta property="og:image" content="{{ app.base_url ~ app.base_path }}/img/share/social.jpg" />
+<meta property="og:url" content="{{ app.url }}" />
+<meta property="og:description" content="Pour ses 20 ans, l'âge où l'on s'engage, «Le Temps» se donne une mission" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="100160886777903" />
+<meta name="twitter:image" content="{{ app.base_url ~ app.base_path }}/img/share/social.jpg" /> 
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@letemps" />
+<meta name="twitter:title" content="Le Temps de s'engager" />
+<meta name="twitter:description" content="Pour ses 20 ans, l'âge où l'on s'engage, «Le Temps» se donne une mission" />
+<link rel="image_src" href="{{ app.base_url ~ app.base_path }}/img/share/social.jpg" />
+{% endblock %}
+
 {% block container %}
 <div class="barba-container">
     <div class="c01">
         <h6>Le Temps à 20 ans </h6>
         <h1 class="text-color"><span class="count">01</span>Journalisme</h1>
-        <span class="date">— (19 mars 2018)</span>
-        <h2>Harcèlement, salaires, la question des inégalités de genres est aussi présente que ces déséqui- libres persistent, en Suisse et dans le monde.</h2>
-        <p class="margin1">Le Temps, pour ses 20 ans, veut se mobiliser. En racontant ces iné- galités homme femme, comme le quotidien essaie de le faire depuis des années, mais aussi en o rant sa contribution pour trouver des améliorations concrètes.</p>
-        <p class="margin2">En se me ant à l’écoute de sa communauté dans un grand brains- torming pour faire émerger des idées et des solutions, en me ant à disposition son réseau pour répondre à des questions de lecteurs ou de lectrices, même en tentant de trouver des réponses technolo- giques à ses problèmes, le Temps souhaite apporter sa pierre à l’édi-  ce pour une cause qui nous concerne tous.</p>
+        <span class="date">— (19 mars - 14 avril)</span>
+        <h2>Le journalisme est chamboulé par l’ogre numérique, les fausses nouvelles qui pullulent, et des pouvoirs politiques voulant reprendre la main sur l’information. Nous faisons le point</h2>
+       
+        <p class="margin1">Pour ce premier mois d’engagement, nous soutiendrons le journalisme. Tout simplement parce que notre profession a trop longtemps rechigné à parler d’elle-même sous prétexte que le thème n’intéressait pas le grand public. Cette humilité collective a été une grave erreur. Les acteurs des médias n’ont pas assez pris position sur la transformation de leur secteur, sur les enjeux politiques d’une telle révolution et sur l’importance du journalisme de qualité pour la démocratie.</p>
+        <p class="margin2">Seul le cadre économique a été largement débattu. Mais ce n’est qu’un aspect du rôle des médias. Le risque est grand de voir débarquer, aussi en Suisse, des fabriques à fake news et des pages Facebook créées pour orienter les discussions au moment de votations importantes. Il n’y a aucune raison pour que ce qui s’est passé aux Etats-Unis ou chez nos voisins – manipulation des consciences via les réseaux sociaux – ne se produise pas aussi chez nous.</p>
+        <p class="margin1">Il n’y aura plus de débat public quand plus personne ne saura de quoi il parle, ni sur quels faits bâtir une argumentation
+        honnête. Le journalisme est le meilleur antidote contre ce poison. C’est le sens de notre engagement.</p>
         
 		<ul class="timeline">
 			<li class="timeline-entry">
                 <div class="timeline-entry-dot"></div>
-                <h6 class="timeline-entry-date"><span>Lundi</span> 4 décembre 2018 <span>à</span> 17:30</h6>
-                <h3 class="text-color">Weinstein,<br>le fabulateur<br>et la meute</h3>
+                <h6 class="timeline-entry-date"><span>Lundi</span> 12 mars 2018 <span>à</span> 16h55</h6>
+                <h3 class="text-color">Le «New York Times»,<br>vu comme antidote<br>aux «fake news»
+</h3>
                 <div class="timeline-entry-infos">
                     <div class="triangle"></div> 
-                    <b>4 minutes</b> de lecture<br>
+                    <b>16 minutes</b> de lecture<br>
                     —<br>
-                    <span class="text-color"><b>Catherine Frammery</b></span><br>
+                    <span class="text-color"><b>Valérie de Graffenried</b></span><br>
                     —<br>
                     Publié le<br>
-                    <b>lundi 4 décembre 2017</b> à <b>17h30</b><br>
-                    Modifié le<br>
-                    <b>mardi 5 décembre 2018</b> à <b>20h00</b>
+                    <b>lundi 12 mars 2018</b> à <b>16h55</b>
+                    <!-- Modifié le<br>
+                    <b>mardi 5 décembre 2018</b> à <b>20h00</b> -->
+                </div>
+
+                <div class="img-wrapper">
+                    <img src="img/01-nytimes.jpg" alt="">
+                    <div class="caption background-color">Les immenses locaux du «New York Times». Avril 2017. © (Earl Wilson/The New York Times)</div>
                 </div>
                 
-                <div class="video-wrapper">
+                <!-- <div class="video-wrapper">
                     <div class="video-wrapper-container">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/-TYlcVNI2AM?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <div class="caption background-color">
-                        lorem ipsum dolores conchita wurst
+                         Les immenses locaux du «New York Times». Avril 2017. © (Earl Wilson/The New York Times)
                     </div>
-                </div>
+                </div> -->
                 
-                <h2><div class="triangle"></div>Ses avocats ont annoncé ce week-end que le producteur américain allait s’installer provisoirement en Suisse. Bronca sur les réseaux sociaux, avant que la Radiotelevisione svizzera (RSI) ne lève le lièvre: c’était une fausse nouvelle</h2>
-                <p class="margin2">La rumeur courait depuis plusieurs jours: Harvey Weinstein allait venir cacher ses turpitudes dans le Tessin hospitalier. Peut-être pour se faire soigner. «En Suisse, là où ce p… de Polanski se cache??? Jesus!» rugissait déjà une internaute américaine, un peu en retard. «Cachez vos enfants, cachez votre femme», recommandait un autre. Même la grande comédienne italienne Asia Argento, celle-là même qui a fourni à ses 375 000 abonnés sur Twitter la liste de 93 victimes du producteur américain (plus d’une centaine de femmes au total l’ont accusé), s’en est inquiétée: «Une de nos sœurs a aperçu Weinstein en Suisse. S’il vous plaît, dites-moi que c’est un mauvais rêve.»</p>
-                <p class="margin2"><b>Lire aussi:</b> <a href="https://www.letemps.ch" target="_blank">Harvey Weinstein va séjourner à Lugano pendant six mois</a></p>
-
-                <div class="slider owl-carousel owl-theme">
-                    <div class="slider-item">
-                        <img src="img/placeholder.jpg" alt="">
-                        <div class="caption background-color">Lorem ipsum dolores conchita</div>
-                    </div>
-                    <div class="slider-item">
-                        <img src="img/placeholder.jpg" alt="">
-                        <div class="caption background-color">Lorem ipsum dolores conchita</div>
-                    </div>
-                </div>
-
-                <p class="margin2">Oui, c’était un mauvais rêve. C’était même complètement faux. Plusieurs médias et agences de presse, dont l’ATS, ont certes reçu samedi un communiqué des avocats de Weinstein, émanant d’une adresse, postmaster@brafmanassociates.com, à l’allure tout à fait officielle. Le producteur avait récemment fait savoir qu’il s’était assuré les services du célèbre avocat new-yorkais Benjamin Brafman, qui avait aussi défendu Dominique Strauss-Kahn.</p>
-
-                <div class="img-wrapper">
-                    <img src="img/placeholder.jpg" alt="">
-                    <div class="caption background-color">Lorem ipsum dolores conchita</div>
-                </div>
-
-                <p class="margin2">Oui, c’était un mauvais rêve. C’était même complètement faux. Plusieurs médias et agences de presse, dont l’ATS, ont certes reçu samedi un communiqué des avocats de Weinstein, émanant d’une adresse, postmaster@brafmanassociates.com, à l’allure tout à fait officielle. Le producteur avait récemment fait savoir qu’il s’était assuré les services du célèbre avocat new-yorkais Benjamin Brafman, qui avait aussi défendu Dominique Strauss-Kahn.</p>
-
-                <blockquote class="text-color margin2">
-                     Une de nos sœurs a aperçu Weinstein en Suisse. S’il vous plaît, dites-moi que c’est un mauvais rêve.
-                </blockquote>
-
-                <p class="margin2">Oui, c’était un mauvais rêve. C’était même complètement faux. Plusieurs médias et agences de presse, dont l’ATS, ont certes reçu samedi un communiqué des avocats de Weinstein, émanant d’une adresse, postmaster@brafmanassociates.com, à l’allure
-                tout à fait officielle. Le producteur avait récemment fait savoir qu’il s’était assuré les services du célèbre avocat
-                new-yorkais Benjamin Brafman, qui avait aussi défendu Dominique Strauss-Kahn.</p>
-
+                <h2><div class="triangle"></div>Depuis l’élection de Donald Trump, le prestigieux quotidien a dépassé les 3,5 millions d’abonnés. Jodi Rudoren, l'une de ses responsables, évoque les défis auxquels le journal fait face</h2>
+                <!-- <h2><a href="https://www.letemps.ch/monde/new-york-times-antidote-aux-fake-news">Lire L'article</a></h2> -->
+                <a href="https://www.letemps.ch/monde/new-york-times-antidote-aux-fake-news" target="_blank"><p class="btn">Lire l'article</p></a>
                 
-            </li>
             
             <li>
                 <div class="author">
+                    <span class="related-title">Journaliste responsable du dossier au Temps</span>
                     <div class="author-picture">
                         <img src="img/catherine-f.jpg" alt="">
                     </div>
                     <div class="author-bio">
                         <span class="author-bio-name">Catherine Frammery</span>
-                        <span class="author-bio-twitter">@cframmery</span>
+                        <span class="author-bio-twitter"><a href="https://twitter.com/cframmery" target="_blank" style="color: #1da1f2;">@cframmery</a></span>
                         <span class="author-bio-desc">Journaliste, Le Temps (Genève, Lausanne).
                             <br> Politique suisse, et aussi médias, France, Etats-Unis, Iran.</span>
                     </div>
                 </div>
             </li>
 
-            <li>
+            <!-- <li>
                 <div class="related">
                     <span class="related-title">Articlest traitant de la même cause:</span>
                     <ul class="related-list">
@@ -104,7 +100,7 @@
                     </ul>
                 </div>
                 
-            </li>
+            </li> -->
 			
 		</ul>
     </div>
