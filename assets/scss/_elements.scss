@@ -237,7 +237,7 @@ nav
     article
     {
         position: relative;
-        margin-bottom: 30px;
+        margin-bottom: 30px;  
         cursor: pointer;
 
          &.is-disabled { cursor: initial; }
@@ -499,6 +499,14 @@ footer
     }
 }
 
+.related-title
+    {
+        font-family: $font-text;
+        font-weight: 600;
+        margin: 0 0 30px 0;
+        display: block;
+    }
+
 .related
 {
     .related-title
@@ -541,4 +549,15 @@ footer
 .flip 
 {
     z-index: 15;
+}
+
+.btn 
+{
+    padding: 10px 13px 12px 13px;;
+    color: white;
+    background: $color00;
+    display: inline;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
 }

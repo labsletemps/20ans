@@ -705,6 +705,12 @@ footer ul {
       font-style: italic;
       font-size: 14px; }
 
+.related-title {
+  font-family: "Rooney";
+  font-weight: 600;
+  margin: 0 0 30px 0;
+  display: block; }
+
 .related .related-title {
   font-family: "Rooney";
   font-weight: 600;
@@ -729,6 +735,15 @@ footer ul {
 
 .flip {
   z-index: 15; }
+
+.btn {
+  padding: 10px 13px 12px 13px;
+  color: white;
+  background: #930025;
+  display: inline;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer; }
 
 @media (max-width: 1440px) {
   aside {
