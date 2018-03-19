@@ -3,3 +3,4 @@ config.codekit3
 _prod
 trash
 json
+.DS_Store
