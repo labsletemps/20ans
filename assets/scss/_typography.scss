@@ -71,10 +71,12 @@ a {
 
 	&:hover {
 		border-bottom-color: transparent;
-		text-decoration: underline;
+		//text-decoration: underline;
 	}
 }
-.timeline a { color: $color00; &:hover { text-decoration: underline; } }
+// a.btn:hover p { text-decoration: none!important; }
+//.timeline a { color: $color00; &:hover { text-decoration: underline; } }
+
 
 strong, b {
 	// font-weight: _font(weight-bold);
@@ -98,7 +100,7 @@ p {
 	
     // 26px
     // rooney
-    // normal
+    // normalunder
     // black
     // 196
 }

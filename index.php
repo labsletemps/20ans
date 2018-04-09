@@ -52,6 +52,8 @@ $aliases  = [
 	'journalisme' => '01'
 ];
 
+echo '<!--' . $path . ' -->';
+
 // Sub page is requested
 if (!empty($path)) {
 	$template = $aliases[$path] . '.html.twig';
