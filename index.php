@@ -49,7 +49,8 @@ $path = ltrim($uri, '/');
 $aliases  = [
 	'' => '00',
 	'temps-engager' => '00',
-	'journalisme' => '01'
+	'journalisme' => '01',
+	'egalite-homme-femme' => '02'
 ];
 
 echo '<!--' . $path . ' -->';
