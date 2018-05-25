@@ -263,7 +263,13 @@ a {
   text-decoration: none;
   color: inherit; }
   a:hover {
-    border-bottom-color: transparent; }
+    border-bottom-color: transparent;
+    text-decoration: underline; }
+
+.timeline a {
+  color: #930025; }
+  .timeline a:hover {
+    text-decoration: underline; }
 
 strong, b {
   font-weight: 600; }
@@ -734,6 +740,7 @@ footer ul {
 .btn {
   padding: 10px 13px 12px 13px;
   color: white;
+  background: #930025;
   display: inline;
   font-weight: 600;
   text-transform: uppercase;
