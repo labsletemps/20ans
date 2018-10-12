@@ -53,7 +53,8 @@ $aliases  = [
 	'egalite-homme-femme' => '02',
 	'ecologie' => '03',
 	'creativite-suisse' => '04',
-	'economie-inclusive' => '05'
+	'economie-inclusive' => '05',
+	'technologie-au-service-de-lhomme' => '06'
 ];
 
 echo '<!--' . $path . ' -->';
